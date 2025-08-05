@@ -19,7 +19,7 @@ https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
 
 ## Interesting insights
 
-### Correlation heatmap
+### Feature correlation heatmap
 
 
 ![](images/corr_heatmap.png)
