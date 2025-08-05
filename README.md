@@ -7,13 +7,13 @@ https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
 
 ## Dataset Summary
 
-- about 21.000 entries (= house descriptions)
-- The dataset contains features like house size, number of bathrooms, buidling year, quality of neighborhood, price, etc.
+- About 21.000 entries (= house descriptions).
+- Each row in the dataset refers to one house. 
+- The houses are described by a number of features, like house size, number of bathrooms, buidling year, quality of neighborhood, last time renovated etc., along with a purchase price.
 
 <br>
 
-<div style="text-align: left"><img src="images/df_head.png" width="700" height="150" /></div>
-
+![](images/df_head.png)
 <br>
 <br>
 
@@ -21,7 +21,9 @@ https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
 
 ### Correlation heatmap
 
-<img src="images/corr_heatmap.png" width="500" height="350">
+
+![](images/corr_heatmap.png)
+
 
 - There are some strong feature correlations, e.g. between price and sqft_living (the bigger the house the higher the house price) or price and sqft_living15 (the better the neighborhood the higher the house price).
 
@@ -29,32 +31,33 @@ https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
 <br>
 
 ### Real estate market around Seattle in 2014/2015
-<img src="images/real_estate_market.png" width="500" height="270">
+
+![](images/real_estate_market.png)
 
 <br>
 <br>
 
 ### Number of historic* houses for sale per zipcode
 
-<img src="images/historic_houses_per_zipcode.png" width="500" height="300">
+![](images/historic_houses_per_zipcode.png)
 
 <br>
 <br>
 
 ### Price range for historic* houses
 
-<img src="images/historic_houses_prices.png" width="500" height="230">
+![](images/historic_houses_prices.png)
 
 <br>
 <br>
 
 ### Median house prices per building year
 
-<img src="images/median_prices_for_all_houses.png" width="400" height="250">
+![](images/median_prices_for_all_houses.png)
 
 <br>
 <br>
 
 ### Median house prices for historic houses per building year
 
-<img src="images/median_prices_for_historic_houses.png" width="400" height="250">
+![](images/median_prices_for_historic_houses.png)
